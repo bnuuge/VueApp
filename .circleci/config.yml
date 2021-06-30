@@ -23,11 +23,7 @@ jobs:
     - checkout
     - run:
         name: npm install
-        command: |
-            cd vue-app
-            npm install
+        command: npm install
     - run:
         name: Run Unit Tests
-        command: |
-            cd vue-app
-            npm test
+        command: npm test
