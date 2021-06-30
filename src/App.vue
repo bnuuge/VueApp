@@ -18,7 +18,7 @@ export default {
       // Counter to change message
       counter: 0,
       // All messages able to be displayed
-      msgs: ["Hello CircleCI", "Thank you very much", "For giving me this opportunity!"], 
+      msgs: ["Hello CircleCI", "Thank you very much", "For giving me this opportunity!", "-Brian Nguyen"], 
       // Default message
       msg: 'Hello CircleCI',
     }
