@@ -24,10 +24,10 @@ jobs:
     - run:
         name: npm install
         command: |
-            cd vue-app
+            cd vue-app/vue-app
             npm install
     - run:
         name: Run Unit Tests
         command: |
-            cd vue-app
+            cd vue-app/vue-app
             npm test
