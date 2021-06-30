@@ -9,8 +9,6 @@ workflows:
     jobs:
       - build
       - heroku/deploy-via-git:
-          environment:
-            HEROKU_API_KEY: 7ab8dee2-8d05-4bda-8c32-bcdf1f1d4ea1
           requires:
             - build
           filters:
